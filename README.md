@@ -8,6 +8,10 @@ $ git clone https://github.com/orangepi-xunlong/wiringOP.git
 
 ## How to build wiringOP
 
+If you are running armbian, the board version will be extracted from `/etc/armbian-release`, automatically.
+
+On other distros you need to select the board manually:
+
 ```
 cd wiringOP
 ./build clean
